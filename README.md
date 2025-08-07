@@ -20,7 +20,11 @@ A simple Python script that scrapes the latest top headlines from **NDTV News** 
 
 ---
 
-<pre> ##  Project Structure <code> news_scraper/ ├── news_scraper.py # Main Python script to scrape headlines ├── headlines.txt  └── README.md # Project documentation </code> </pre>
+##  Project Structure 
+<pre> <code> news_project/ 
+   ├── news_scraper.py # Main Python script to scrape headlines 
+   ├── headlines.txt  
+   └── README.md # Project documentation </code> </pre>
 
 
 ---
@@ -32,6 +36,7 @@ A simple Python script that scrapes the latest top headlines from **NDTV News** 
    ```bash
    pip install requests beautifulsoup4
    python news_project.py
+
 
 
 
